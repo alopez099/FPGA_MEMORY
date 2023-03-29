@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../src/fifo_ctrl.vhd" \
+"../../../../../src/reg_file.vhd" \
+"../../../../../src/fifo.vhd" \
+"../../../../sim/fifo_tb.vhd" \
+
+# Do not sort compile order
+nosort

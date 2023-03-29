@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Mar 25 02:05:52 2023
+# Process ID: 2268
+# Current directory: C:/Users/alope/OneDrive/ECE_524/sp23-e524-lab4-mem-alopez099/hardware/temp_converter_ROM/temp_converter_rom/temp_converter_rom.runs/synth_1
+# Command line: vivado.exe -log temp_coverter.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source temp_coverter.tcl
+# Log file: C:/Users/alope/OneDrive/ECE_524/sp23-e524-lab4-mem-alopez099/hardware/temp_converter_ROM/temp_converter_rom/temp_converter_rom.runs/synth_1/temp_coverter.vds
+# Journal file: C:/Users/alope/OneDrive/ECE_524/sp23-e524-lab4-mem-alopez099/hardware/temp_converter_ROM/temp_converter_rom/temp_converter_rom.runs/synth_1\vivado.jou
+# Running On: Exelsior-GT-77, OS: Windows, CPU Frequency: 3700 MHz, CPU Physical cores: 12, Host memory: 34270 MB
+#-----------------------------------------------------------
+source temp_coverter.tcl -notrace
+Command: synth_design -top temp_coverter -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 28616
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 834.902 ; gain = 414.504
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'temp_coverter' [C:/Users/alope/OneDrive/ECE_524/sp23-e524-lab4-mem-alopez099/hardware/temp_converter_ROM/src/temp_coverter.vhd:17]
+ERROR: [Synth 8-421] mismatched array sizes in rhs and lhs of assignment [C:/Users/alope/OneDrive/ECE_524/sp23-e524-lab4-mem-alopez099/hardware/temp_converter_ROM/src/temp_coverter.vhd:48]
+ERROR: [Synth 8-421] mismatched array sizes in rhs and lhs of assignment [C:/Users/alope/OneDrive/ECE_524/sp23-e524-lab4-mem-alopez099/hardware/temp_converter_ROM/src/temp_coverter.vhd:55]
+ERROR: [Synth 8-285] failed synthesizing module 'temp_coverter' [C:/Users/alope/OneDrive/ECE_524/sp23-e524-lab4-mem-alopez099/hardware/temp_converter_ROM/src/temp_coverter.vhd:17]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 924.430 ; gain = 504.031
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+7 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Sat Mar 25 02:06:09 2023...

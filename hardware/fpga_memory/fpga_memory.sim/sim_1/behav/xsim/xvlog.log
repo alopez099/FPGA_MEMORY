@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alope/Documents/ECE_524/sp23-e524-lab4-mem-alopez099/hardware/fpga_memory/fpga_memory.srcs/sources_1/new/sign_magnitude_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_magnitude_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alope/Documents/ECE_524/sp23-e524-lab4-mem-alopez099/hardware/fpga_memory/fpga_memory.srcs/sim_1/new/sign_magnitude_adder_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_magnitude_adder_tb

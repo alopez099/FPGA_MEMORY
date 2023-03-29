@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alope/OneDrive/ECE_524/sp23-e524-lab4-mem-alopez099/hardware/FIFO/src/fifo_ctrl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fifo_ctrl'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alope/OneDrive/ECE_524/sp23-e524-lab4-mem-alopez099/hardware/FIFO/src/fifo.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fifo'

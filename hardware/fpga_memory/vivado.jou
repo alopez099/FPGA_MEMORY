@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Mar 22 11:52:42 2023
+# Process ID: 2116
+# Current directory: C:/Users/alope/OneDrive/ECE_524/sp23-e524-lab4-mem-alopez099/hardware/fpga_memory
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent39376 C:\Users\alope\OneDrive\ECE_524\sp23-e524-lab4-mem-alopez099\hardware\fpga_memory\fpga_memory.xpr
+# Log file: C:/Users/alope/OneDrive/ECE_524/sp23-e524-lab4-mem-alopez099/hardware/fpga_memory/vivado.log
+# Journal file: C:/Users/alope/OneDrive/ECE_524/sp23-e524-lab4-mem-alopez099/hardware/fpga_memory\vivado.jou
+# Running On: Exelsior-GT-77, OS: Windows, CPU Frequency: 3700 MHz, CPU Physical cores: 12, Host memory: 34270 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/alope/OneDrive/ECE_524/sp23-e524-lab4-mem-alopez099/hardware/fpga_memory/fpga_memory.xpr
+update_compile_order -fileset sources_1

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Mar 25 02:05:52 2023
+# Process ID: 2268
+# Current directory: C:/Users/alope/OneDrive/ECE_524/sp23-e524-lab4-mem-alopez099/hardware/temp_converter_ROM/temp_converter_rom/temp_converter_rom.runs/synth_1
+# Command line: vivado.exe -log temp_coverter.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source temp_coverter.tcl
+# Log file: C:/Users/alope/OneDrive/ECE_524/sp23-e524-lab4-mem-alopez099/hardware/temp_converter_ROM/temp_converter_rom/temp_converter_rom.runs/synth_1/temp_coverter.vds
+# Journal file: C:/Users/alope/OneDrive/ECE_524/sp23-e524-lab4-mem-alopez099/hardware/temp_converter_ROM/temp_converter_rom/temp_converter_rom.runs/synth_1\vivado.jou
+# Running On: Exelsior-GT-77, OS: Windows, CPU Frequency: 3700 MHz, CPU Physical cores: 12, Host memory: 34270 MB
+#-----------------------------------------------------------
+source temp_coverter.tcl -notrace
